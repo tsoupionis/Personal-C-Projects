@@ -25,8 +25,8 @@ int main () {
     string line;
     
     while (getline(inputFile,line)) {
-        //getline takes into account spaces between words, so a whole line with spaces
-        // 
+        // getline takes into account spaces between words, so a whole line from the file
+        // with spacesis stored in the variable line 
         stringstream tokenizer(line); //used to make a tokenizer
         string word;
 
